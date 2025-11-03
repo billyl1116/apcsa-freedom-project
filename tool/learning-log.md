@@ -34,7 +34,7 @@ T → Rect tool (for 2D/UI objects)
 
 Left Click → Select object in the Scene or Hierarchy.
 
-
+![alt text](image.png)
 Shift + Click → Select multiple objects.
 
 Ctrl/Cmd + D → Duplicate selected object.
@@ -52,7 +52,7 @@ Rotation → How the object is rotated.
 Scale → Size of the object.
 
 You can change these in the Inspector or by using the Move/Rotate/Scale tools in the Scene.
-
+![alt text](image-1.png)
 ### 4. Game View vs Scene View
 
 Scene View → Where you build and arrange your game.
@@ -77,7 +77,7 @@ Inspector → Shows details and components of the selected object.
 
 Project Window → Where all your assets (models, scripts, textures) are stored.
 
-
+![alt text](image-2.png)
 
 <!-- 
 * Links you used today (websites, videos, etc)
