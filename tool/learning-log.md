@@ -79,6 +79,76 @@ Project Window → Where all your assets (models, scripts, textures) are stored.
 
 ![alt text](image-2.png)
 
+
+### 11/16/25:
+
+
+### Materials
+
+you can change your material in the project file and fine where's all your material is located and drag it to the thing you wan to put the material on.
+![alt text](image-3.png)
+
+as for the sky you do the same but this time you drag the specfict skyboxes file to the sky 
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+1. Hand Tool (Pan View)
+
+Lets you pan the Scene View without selecting or moving objects.
+
+**Shortcut: Q**
+
+2. Move Tool 
+
+4-arrow cross
+
+Move objects along X, Y, Z axes.
+
+**Shortcut: W**
+
+3. Rotate Tool
+
+Curved rotation arrows
+
+Rotate objects around X, Y, Z axes.
+
+**Shortcut: E**
+
+4. Scale Tool
+
+Square scaling icon
+
+Scale objects uniformly or per-axis.
+
+**Shortcut: R**
+
+5. Rect Tool
+
+Rectangle with corner handles
+
+Function: Move/Resize 2D objects & UI elements.
+
+**Shortcut: T**
+
+6. Transform Tool (Move + Rotate + Scale Combined)
+
+Circles + arrows combined
+
+A unified gizmo that allows moving, 
+rotating, and scaling without switching tools.
+
+**Shortcut: Y**
+
+7. Create Placement Tool
+
+Green circle with +
+
+Function: Place new GameObjects (like prefabs) into the scene with click-to-place behavior.
+
+(You activate it by selecting a prefab in the Hierarchy or dragging one)
+
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
