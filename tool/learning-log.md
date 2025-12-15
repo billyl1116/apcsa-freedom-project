@@ -156,3 +156,25 @@ Function: Place new GameObjects (like prefabs) into the scene with click-to-plac
 * Questions you still have
 * What you're going to try next
 -->
+
+### 12/8/25:
+
+## Create with code
+
+![alt text](image-6.png)
+you can use the slider on the bottom right to zoom in and out of the item inside of a folder
+![alt text](image-7.png)
+
+added a secenes  by dragging it from the folder to the viewer
+
+**F** Key is used when you can't find a object, first you click on the object you want to find in the hierarchy and press **F** and it will take your view to that object.
+
+you can hold down the **Alt** and drag you mouse you can rotate around your camera with out moving 
+![alt text](image-8.png)
+right click hierarchy and you can add a camera that show the player's view
+![alt text](image-9.png)
+anything change in playmode will **not be save**
+this is the what I have right now 
+![alt text](image-10.png)
+next step I'm going to continual with the lesson and try to make the car move
+![alt text](image-11.png)
