@@ -178,3 +178,68 @@ this is the what I have right now
 ![alt text](image-10.png)
 next step I'm going to continual with the lesson and try to make the car move
 ![alt text](image-11.png)
+
+## The codes (C#)
+
+### movement of the vehicle
+```C#
+ // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+```
+
+```C#
+    // Update is called once per frame
+
+ void Update()
+    {
+
+    }
+```
+```C#
+public class NewMonoBehaviourScript : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //We'll move the vehicle forward
+        transform.Translate(Vector3.forward * Time.deltaTime * 20);
+    }
+```
+`transform` Every GameObject in Unity has a Transform component. It stores the object’s position, rotation, and scale.
+
+`Translate()` `Translate` moves the object by a given amount. It adds a movement vector to the object’s current position.
+
+`Vector3.forward` This is shorthand for the vector (0, 0, 1). It represents the forward direction of the object (along the Z-axis).
+
+`Time.deltaTime` The time (in seconds) since the last frame. This makes movement frame-rate independent.
+
+`* 20` This is the movement speed. The object moves 20 units per second forward.
+
+`float` is a variable that tell the computer we are inputting a decimal number
+
+```C#
+ float speed = 5.0f;
+ ```
+
+ ### movement of the player camera
+
+ first we create the `GameObject` class and go back to our *Hierarchy* and add the vehicle to it
+![alt text](image-12.png)
+
+then we add this to our update 
+```C#
+        transform.position = player.transform.position + offset;
+```
+so now the player's camera will move along with the vehicle and the `offset` is a variable I made that stand for `public Vector3 offset = new Vector3(0, 5, -7);
+`
+
+plus you can add something call `LateUpdate` so the command will run after the car move making the camera look more smooth
