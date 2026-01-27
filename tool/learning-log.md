@@ -243,3 +243,17 @@ so now the player's camera will move along with the vehicle and the `offset` is 
 `
 
 plus you can add something call `LateUpdate` so the command will run after the car move making the camera look more smooth
+
+
+### 1/25/2026
+
+to add rotation to the car first we make a float like `public float horizontalInput;` and after we can add it in the update like 
+```c#
+ void Update()
+    {
+        horizontalInput = Input.GetAxis("Horizontal"); // this will make it so you can get a input in unity
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        transform.Translate(Vector3.right * Time.deltaTime * turnSpeed * horizontalInput);// making the turnSpeed times the horizontalInput bye user pressing on left or right and make the car move left or right
+    }
+}
+```
