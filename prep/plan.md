@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Unity
+## Product: Rogue Like game
 
 ---
 
@@ -9,13 +9,14 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ] Finish all the learning (deadline: before the end of winter break)
+  - [ ] Start building the basic of the game, such as background, movement, and attack animation (deadline: before spring break )
+  - [ ] adding a leveling system to the game (deadline: before spring break )
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Musics
+  - [ ] more mob and skills 
 
 
 <!-- EXAMPLE
