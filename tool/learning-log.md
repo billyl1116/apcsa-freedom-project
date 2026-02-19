@@ -257,3 +257,9 @@ to add rotation to the car first we make a float like `public float horizontalIn
     }
 }
 ```
+
+2/19/2026
+
+### How to create a prefab
+
+First create a new folder in your assets folder, after in the prefab folder input the object you want a prefab of. and then in your code `add a public GameObject name;` after go back to unity and drag the prefab to your code.
