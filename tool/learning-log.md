@@ -263,3 +263,15 @@ to add rotation to the car first we make a float like `public float horizontalIn
 ### How to create a prefab
 
 First create a new folder in your assets folder, after in the prefab folder input the object you want a prefab of. and then in your code add a `public GameObject name;` after go back to unity and drag the prefab to your code.
+
+and than after you can add something like this to detect player input ![alt text](image-13.png) so the object will spawn in.
+
+### How to destory a object out of bound
+
+![alt text](image-14.png)
+
+first set a limit for the bound and you a if statment when the object is bigger than the limit it will get destory.
+
+### How to randomly spawn in object
+
+if you want to randomly spawn in project first you have to create a array and after in the array `public GameObject[] animalPrefabs;` you attach the code to the Empty object create in Hierarchy, ![alt text](image-15.png)
